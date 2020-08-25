@@ -10,7 +10,6 @@ repositories {
 }
 
 dependencies {
-   // compile group: 'javax', name: 'javaee-api', version: '8.0'
-   providedCompile fileTree(dir: 'libs', include: ['*.jar'])
+   providedCompile fileTree(dir: 'libs', include: ['javaee-api-8.0.jar'])
 
 }
